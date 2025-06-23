@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Hero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Menu Lateral -->
+        <aside class="sidebar">
+            <h2>MENU</h2>
+            <ul>
+                <li id="menu-home" class="active">🏠 Home</li>
+                <li id="menu-serial">📺 Séries</li>
+                <li id="menu-movie">🎥 Filmes</li>
+            </ul>
+        </aside>
+
+
+        <!-- Conteúdo Principal -->
+        <main class="main-content">
+            <!-- Banner / Video -->
+            <div class="banner">
+                <img src="banner-hero.jpg" alt="Banner Anime">
+            </div>
+
+            <!-- Ordenados por melhores avaliações -->
+            <section>
+                <h2>Melhores avaliações</h2>
+                <div id="anime-container" class="card-container">
+                    <!-- Os animes serão inseridos aqui pelo JS -->
+                </div>
+            </section>
+
+            <!-- Ordenados por ordem alfabética -->
+            <section>
+                <h2>Por ordem alfabética</h2>
+                <div id="anime-alphabetical" class="card-container">
+                    <!-- Os animes ordenados aparecerão aqui -->
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
